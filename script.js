@@ -39,9 +39,6 @@ function addExpense(title, amount) {
     updateBalance();
 }
 
-function formatCurrency(amount) {
-    return amount.toLocaleString("fr-FR") + "F CFA";
-}
 
 
 if (!localStorage.getItem("expenses")) {
